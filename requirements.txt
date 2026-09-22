@@ -1,0 +1,7 @@
+fastapi==0.141.1
+uvicorn==0.53.0
+starlette==1.6.0
+pydantic==2.13.5
+anyio==4.15.1
+h11==0.16.0
+click==8.5.0

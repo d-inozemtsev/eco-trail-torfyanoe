@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#F4F7F8" />
+    <meta
+      name="description"
+      content="Пять научных приключений у озера Торфяное в районе Патрокла: наблюдай, исследуй и найди свой характер озера."
+    />
+    <title>ЭкоТропа · Торфяное</title>
+    <link rel="icon" href="/static/media/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="manifest" href="/static/manifest.json" />
+    <script
+      async
+      id="telegram-sdk"
+      src="https://telegram.org/js/telegram-web-app.js"
+    ></script>
+    <script type="module" src="/static/app.js"></script>
+  </head>
+  <body>
+    <div class="shell">
+      <header>
+        <button class="wordmark" data-action="home" aria-label="На главную">
+          ЭКОТРОПА<span>ТОРФЯНОЕ · ПАТРОКЛ</span></button
+        ><button class="text-button" data-action="route">Маршрут ↗</button>
+      </header>
+      <div id="notice" role="status" hidden></div>
+      <main id="app" tabindex="-1">
+        <p class="loading">Собираем маршрут…</p>
+      </main>
+      <footer>МОРЕ · ПРИРОДА · ЛЮДИ <span>Владивосток</span></footer>
+    </div>
+    <noscript
+      >Для заданий нужен JavaScript. Включи его в браузере и обнови
+      страницу.</noscript
+    >
+  </body>
+</html>

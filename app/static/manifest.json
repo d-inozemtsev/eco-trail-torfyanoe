@@ -1,0 +1,17 @@
+{
+  "name": "ЭкоТропа · Торфяное",
+  "short_name": "ЭкоТропа",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F7F8",
+  "theme_color": "#5F7F86",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/static/media/mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

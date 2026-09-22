@@ -1,0 +1,14 @@
+{
+  "name": "torfyanoe-eco-trail",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/core.test.js",
+    "format": "prettier --write app/static/*.{js,css,html,json}",
+    "test:e2e": "node tests/mobile.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "prettier": "3.6.2"
+  }
+}
